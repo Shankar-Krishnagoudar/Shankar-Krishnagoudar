@@ -1,3 +1,4 @@
+
 function compute()
 {
     if(principal.value < 1){
@@ -28,3 +29,4 @@ finishPage = () =>{
     	years.appendChild(element)
     }
 }
+
