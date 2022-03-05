@@ -1,7 +1,5 @@
 function compute()
 {
-    p = document.getElementById("principal").value;
-
     if(principal.value < 1){
         alert("Amount has to be a positive quantity")
         principal.focus()
@@ -29,3 +27,4 @@ finishPage = () =>{
     	element.setAttribute("value", i)
     	years.appendChild(element)
     }
+}
